@@ -1,3 +1,67 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Add this to your global styles if using a CSS file, or make sure these utilities are available in Tailwind */
+.fixed {
+    position: fixed;
+  }
+  .top-0 {
+    top: 0;
+  }
+  .left-0 {
+    left: 0;
+  }
+  .z-40 {
+    z-index: 40;
+  }
+  .w-64 {
+    width: 16rem;
+  }
+  .h-screen {
+    height: 100vh;
+  }
+  .border-r-2 {
+    border-right-width: 2px;
+  }
+  .bg-gray-50 {
+    background-color: #f9fafb;
+  }
+  .flex {
+    display: flex;
+  }
+  .flex-col {
+    flex-direction: column;
+  }
+  .transition-transform {
+    transition-property: transform;
+  }
+  .transform {
+    transform: translateX(0);
+  }
+  .-translate-x-full {
+    transform: translateX(-100%);
+  }
+  .sm\\:hidden {
+    @media (min-width: 640px) {
+      display: none;
+    }
+  }
+  .sm\\:ml-64 {
+    @media (min-width: 640px) {
+      margin-left: 16rem;
+    }
+  }
+  .p-4 {
+    padding: 1rem;
+  }
+  .border-2 {
+    border-width: 2px;
+  }
+  .rounded-lg {
+    border-radius: 0.5rem;
+  }
+  .opacity-50 {
+    opacity: 0.5;
+  }
+  
