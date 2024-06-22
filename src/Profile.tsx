@@ -50,7 +50,7 @@ function Profile() {
 
       <h2 className="text-2xl font-bold my-5">Moje Obstarávanie</h2>
 
-      <div className="grid items-center grid-cols-7 mt-4 border-2 border-black rounded-lg p-4 gap-4 font-medium">
+      <div className="grid items-center grid-cols-7 mt-4 border-2 border-black rounded-lg p-4 gap-4 font-medium hover:bg-blue-200 transition-all duration-200 ease-linear">
         <span className="text-center">123456</span>
         <span className="text-center">
           Sutaz o obstaravani traktorov v meste Bratislava 2023
@@ -63,7 +63,7 @@ function Profile() {
           <i className="bx bx-file text-3xl"></i>
         </span>
       </div>
-      <div className="grid items-center grid-cols-7 mt-4 border-2 border-black rounded-lg p-4 gap-4 font-medium hover:bg-blue-300">
+      <div className="grid items-center grid-cols-7 mt-4 border-2 border-black rounded-lg p-4 gap-4 font-medium hover:bg-blue-200 transition-all duration-200 ease-linear">
         <span className="text-center">123456</span>
         <span className="text-center">
           Sutaz o obstaravani traktorov v meste Bratislava 2023
@@ -76,7 +76,7 @@ function Profile() {
           <i className="bx bx-file text-3xl"></i>
         </span>
       </div>
-      <div className="grid items-center grid-cols-7 mt-4 border-2 border-black rounded-lg p-4 gap-4 font-medium">
+      <div className="grid items-center grid-cols-7 mt-4 border-2 border-black rounded-lg p-4 gap-4 font-medium hover:bg-blue-200 transition-all duration-200 ease-linear">
         <span className="text-center">123456</span>
         <span className="text-center">
           Sutaz o obstaravani traktorov v meste Bratislava 2023
@@ -89,7 +89,7 @@ function Profile() {
           <i className="bx bx-file text-3xl"></i>
         </span>
       </div>
-      <div className="grid items-center grid-cols-7 mt-4 border-2 border-black rounded-lg p-4 gap-4 font-medium">
+      <div className="grid items-center grid-cols-7 mt-4 border-2 border-black rounded-lg p-4 gap-4 font-medium hover:bg-blue-200 transition-all duration-200 ease-linear">
         <span className="text-center">123456</span>
         <span className="text-center">
           Sutaz o obstaravani traktorov v meste Bratislava 2023

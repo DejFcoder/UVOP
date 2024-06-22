@@ -14,7 +14,7 @@ function Sidebar() {
           href="https://flowbite.com/"
           className="flex items-center ps-2.5 mb-5"
         >
-          <img src={Logo} className="w-52" alt="Flowbite Logo" />
+          <img src={Logo} className="w-40" alt="Flowbite Logo" />
         </a>
         <div className="flex-1">
           <ul className="space-y-2 font-medium">
@@ -96,7 +96,7 @@ function Sidebar() {
         </div>
         <div className="mt-auto">
           <ul className="space-y-2 font-medium">
-            <li>
+            {/* <li>
               <Link
                 to="/login"
                 className="flex items-center p-2 text-gray-900 rounded-lg hover:bg-gray-100 group"
@@ -118,16 +118,29 @@ function Sidebar() {
                   Prihlásiť sa
                 </span>
               </Link>
-            </li>
+            </li> */}
             <li>
-              <a
-                href="#"
+              <Link
+                to="/login"
                 className="flex items-center p-2 text-gray-900 rounded-lg hover:bg-gray-100 group"
               >
-                <span className="flex-1 ms-3 whitespace-nowrap">
-                  Zaregistrovať sa
+                <svg
+                  width="21"
+                  height="18"
+                  viewBox="0 0 21 18"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M15.7051 4L14.2951 5.41L16.8751 8H6.70508V10H16.8751L14.2951 12.58L15.7051 14L20.7051 9L15.7051 4ZM2.70508 2H10.7051V0H2.70508C1.60508 0 0.705078 0.9 0.705078 2V16C0.705078 17.1 1.60508 18 2.70508 18H10.7051V16H2.70508V2Z"
+                    fill="red"
+                  />
+                </svg>
+
+                <span className="flex-1 ms-3 whitespace-nowrap text-red-600">
+                  Odhlásiť sa
                 </span>
-              </a>
+              </Link>
             </li>
           </ul>
         </div>

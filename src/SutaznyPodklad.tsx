@@ -5,7 +5,6 @@ function SutaznyPodklad() {
     <Layout>
       <div className="flex flex-row justify-between items-center mb-12">
         <h1 className="text-4xl font-bold">Zákazka #123456</h1>
-        
       </div>
 
       <div className="flex flex-col mb-12">
@@ -197,12 +196,19 @@ function SutaznyPodklad() {
         </div>
       </div>
 
-      <div className="w-full flex justify-center items-center mt-10">
-        <button className="text-xl bg-blue-600 text-white py-4 px-10 rounded-xl">
-          Stiahnuť zmluvy 
+      <div className="w-2/4 mx-auto flex justify-around items-center mt-10">
+        <button className="text-md bg-blue-600 text-white py-4 px-5 rounded-xl">
+          <div className="flex items-center">
+          <p className="mr-4">Stiahnuť zmluvy</p>
+          <i className="bx bx-chevron-down text-2xl"></i>
+          </div>
         </button>
-        <button className="text-xl bg-blue-600 text-white py-4 px-10 rounded-xl">
-          Stiahnuť súťažné podklady 
+
+        <button className="text-md bg-blue-600 text-white py-2 px-5 rounded-xl max-w-52">
+          <div className="flex items-center">
+          <p className="mr-4">Stiahnuť súťažné podklady</p>
+          <i className="bx bx-chevron-down text-2xl"></i>
+          </div>
         </button>
       </div>
     </Layout>

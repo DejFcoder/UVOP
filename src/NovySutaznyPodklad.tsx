@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Layout from "./Layout";
 
 function RegisterDat() {
@@ -5,7 +6,7 @@ function RegisterDat() {
     <Layout>
       <div className="flex flex-row justify-between items-center mb-12">
         <h1 className="text-4xl font-bold">Nový súťažný podklad</h1>
-        <button className="border-2 border-red-600 py-2  px-3 text-red-600 font-medium rounded-lg ">
+        <button className="border-2 border-red-600 hover:bg-red-600 py-2  px-3 text-red-600 hover:text-white font-medium rounded-lg transition-all duration-200 ease-linear">
           Zmazať
         </button>
       </div>
@@ -218,7 +219,7 @@ function RegisterDat() {
       </div>
 
       <div className="w-full flex justify-center items-center mt-10">
-        <button className="text-xl bg-blue-600 text-white py-4 px-10 rounded-xl">Uložiť</button>
+        <Link to="/" className="text-xl bg-blue-600 text-white py-4 px-10 rounded-xl">Uložiť</Link>
       </div>
     </Layout>
   );

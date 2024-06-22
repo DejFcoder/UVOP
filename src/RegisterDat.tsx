@@ -5,7 +5,7 @@ import SearchInput from "./SearchInput";
 function RegisterDat() {
   return (
     <Layout>
-      <h1 className="text-4xl font-bold mb-3">Register podkladov</h1>
+      <h1 className="text-4xl font-bold mb-5">Register podkladov</h1>
       <SearchInput />
 
       <div className="grid items-center grid-cols-7 mb-8 w-full p-2 rounded-lg bg-blue-800 text-white">
