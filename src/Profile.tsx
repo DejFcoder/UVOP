@@ -63,7 +63,7 @@ function Profile() {
           <i className="bx bx-file text-3xl"></i>
         </span>
       </div>
-      <div className="grid items-center grid-cols-7 mt-4 border-2 border-black rounded-lg p-4 gap-4 font-medium bg-blue-300">
+      <div className="grid items-center grid-cols-7 mt-4 border-2 border-black rounded-lg p-4 gap-4 font-medium hover:bg-blue-300">
         <span className="text-center">123456</span>
         <span className="text-center">
           Sutaz o obstaravani traktorov v meste Bratislava 2023
