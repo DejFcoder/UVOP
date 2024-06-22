@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Layout from "./Layout";
 import SearchInput from "./SearchInput";
 
@@ -20,7 +21,8 @@ function RegisterDat() {
       {Array(8)
         .fill(0)
         .map((_, index) => (
-          <div
+          <Link
+          to="/sutazny-podklad"
             className="grid items-center grid-cols-7 mt-4 border-2 border-black rounded-lg p-4 gap-4 font-medium"
             key={index}
           >
@@ -35,7 +37,7 @@ function RegisterDat() {
             <span className="flex justify-center items-center">
               <i className="bx bx-file text-3xl"></i>
             </span>
-          </div>
+          </Link>
         ))}
     </Layout>
   );
