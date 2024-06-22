@@ -86,24 +86,29 @@ function SutaznyPodklad() {
         <div className="flex flex-col">
           <div className="flex flex-col mb-7">
             <p className="mb-2">Typ zákazky</p>
+            <div className="relative flex flex-col">
             <input
               className="border-2 border-black rounded max-w-lg p-1"
               type="text"
             />
+            <i className='bx bx-chevron-down absolute right-24 bottom-3'></i>
+            </div>
           </div>
-          <div className="flex flex-col mb-7">
+          <div className="flex flex-col mb-7 relative">
             <p className="mb-2">CPV kód (hlavný predmet)</p>
             <input
               className="border-2 border-black rounded max-w-lg p-1"
               type="text"
             />
+            <i className='bx bx-chevron-down absolute right-24 bottom-3'></i>
           </div>
-          <div className="flex flex-col mb-7">
+          <div className="flex flex-col mb-7 relative">
             <p className="mb-2">CPV kód z (doplňujúci predmet)</p>
             <input
               className="border-2 border-black rounded max-w-lg p-1"
               type="text"
             />
+            <i className='bx bx-chevron-down absolute bottom-3 right-24'></i>
           </div>
         </div>
       </div>
