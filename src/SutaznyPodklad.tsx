@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Layout from "./Layout";
 
 function SutaznyPodklad() {
@@ -197,19 +198,25 @@ function SutaznyPodklad() {
       </div>
 
       <div className="w-2/4 mx-auto flex justify-around items-center mt-10">
-        <button className="text-md bg-blue-600 text-white py-4 px-5 rounded-xl">
+        <Link
+          to="/register"
+          className="text-md bg-blue-600 text-white py-4 px-5 rounded-xl"
+        >
           <div className="flex items-center">
-          <p className="mr-4">Stiahnuť zmluvy</p>
-          <i className="bx bx-chevron-down text-2xl"></i>
+            <p className="mr-4">Stiahnuť zmluvy</p>
+            <i className="bx bx-chevron-down text-2xl"></i>
           </div>
-        </button>
+        </Link>
 
-        <button className="text-md bg-blue-600 text-white py-2 px-5 rounded-xl max-w-52">
+        <Link
+          to="/register"
+          className="text-md bg-blue-600 text-white py-2 px-5 rounded-xl max-w-52"
+        >
           <div className="flex items-center">
-          <p className="mr-4">Stiahnuť súťažné podklady</p>
-          <i className="bx bx-chevron-down text-2xl"></i>
+            <p className="mr-4">Stiahnuť súťažné podklady</p>
+            <i className="bx bx-chevron-down text-2xl"></i>
           </div>
-        </button>
+        </Link>
       </div>
     </Layout>
   );
