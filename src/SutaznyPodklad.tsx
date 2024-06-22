@@ -17,6 +17,7 @@ function SutaznyPodklad() {
               <input
                 className="border-2 border-black rounded max-w-lg p-1"
                 type="text"
+                placeholder="peto.remis@gmail.com"
               />
             </div>
             <div className="flex flex-col mb-7">
@@ -24,6 +25,7 @@ function SutaznyPodklad() {
               <input
                 className="border-2 border-black rounded max-w-lg p-1"
                 type="text"
+                placeholder="Adrian M"
               />
             </div>
             <div className="flex flex-col mb-7">
