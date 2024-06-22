@@ -6,10 +6,12 @@ import RegisterDat from "./RegisterDat";
 import Login from "./Login";
 import Dashboard from "./Grafy.tsx";
 import SutaznyPodklad from "./SutaznyPodklad.tsx";
+import ScrollToTop from "./ScrollToTop.ts";
 
 function App() {
   return (
     <Router>
+      <ScrollToTop/>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/novy-sutazny-podklad" element={<NovySutaznyPodklad />} />
