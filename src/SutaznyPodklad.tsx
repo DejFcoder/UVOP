@@ -200,9 +200,14 @@ function SutaznyPodklad() {
       </div>
 
       <div className="w-full flex justify-center items-center mt-10">
-        <button className="text-xl bg-blue-600 text-white py-4 px-10 rounded-xl">
-          Uložiť
+        <button className="text-lg bg-blue-600 text-white py-4 px-10 rounded-xl">
+          Stiahnuť zmluvy
         </button>
+        <i className='bx bx-chevron-down'></i>
+        <button className="text-lg bg-blue-600 text-white py-4 px-10 rounded-xl">
+          Stiahnuť súťažné podklady
+        </button>
+        <i className='bx bx-chevron-down'></i>
       </div>
     </Layout>
   );
