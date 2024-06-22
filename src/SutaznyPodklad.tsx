@@ -15,7 +15,7 @@ function SutaznyPodklad() {
             <div className="flex flex-col mb-7">
               <p className="mb-2">Internetova adresa (URL)</p>
               <input
-                className="border-2 border-black rounded max-w-lg p-2"
+                className="border-2 border-black rounded max-w-lg p-2 placeholder-black"
                 type="text" 
                 placeholder="peto.remis@gmail.com"
               />
@@ -23,7 +23,7 @@ function SutaznyPodklad() {
             <div className="flex flex-col mb-7">
               <p className="mb-2">Manažér VO</p>
               <input
-                className="border-2 border-black rounded max-w-lg p-2"
+                className="border-2 border-black rounded max-w-lg p-2 placeholder-black"
                 type="text"
                 placeholder="Adrian M"
               />
@@ -31,7 +31,7 @@ function SutaznyPodklad() {
             <div className="flex flex-col mb-7">
               <p className="mb-2">Datum vyhlasenia</p>
               <input
-                className="border-2 border-black rounded max-w-lg p-2"
+                className="border-2 border-black rounded max-w-lg p-2 placeholder-black"
                 type="text" placeholder="22.06.2025"
               />
             </div>
@@ -41,21 +41,21 @@ function SutaznyPodklad() {
             <div className="flex flex-col mb-7">
               <p className="mb-2">Internetova adresa profilu (URL)</p>
               <input
-                className="border-2 border-black rounded max-w-lg p-2"
+                className="border-2 border-black rounded max-w-lg p-2 placeholder-black"
                 type="text" placeholder="peto.remis.com"
               />
             </div>
             <div className="flex flex-col mb-7">
               <p className="mb-2">Vecný gestor a jeho nadriadený</p>
               <input
-                className="border-2 border-black rounded max-w-lg p-2"
+                className="border-2 border-black rounded max-w-lg p-2 placeholder-black"
                 type="text" placeholder="Marian A"
               />
             </div>
             <div className="flex flex-col mb-7">
               <p className="mb-2">Osoba podla podpisoveho poriadku</p>
               <input
-                className="border-2 border-black rounded max-w-lg p-2"
+                className="border-2 border-black rounded max-w-lg p-2 placeholder-black"
                 type="text" placeholder="Peťo Remiš"
               />
             </div>
@@ -69,7 +69,7 @@ function SutaznyPodklad() {
           <div className="flex flex-col mb-7">
             <p className="mb-2">Názov zákazky</p>
             <input
-              className="border-2 border-black rounded max-w-lg p-2"
+              className="border-2 border-black rounded max-w-lg p-2 placeholder-black"
               type="text" placeholder="Monitory v Bratislave"
             />
           </div>
@@ -77,7 +77,7 @@ function SutaznyPodklad() {
             <p className="mb-2">Stručný opis</p>
             <textarea
               rows={5}
-              className="border-2 border-black rounded max-w-lg p-2"
+              className="border-2 border-black rounded max-w-lg p-2 placeholder-black"
               name=""
               id="" placeholder="Keď si raz Peťo Remiš tak si raz Peťo Remiš a keď si Remiš Peťo tak si Šimer Oťep"
             ></textarea>
@@ -88,7 +88,7 @@ function SutaznyPodklad() {
             <p className="mb-2">Typ zákazky</p>
             <div className="relative flex flex-col">
             <input
-              className="border-2 border-black rounded max-w-lg p-2"
+              className="border-2 border-black rounded max-w-lg p-2 placeholder-black"
               type="text" placeholder="Obyčajna"
             />
             <i className='bx bx-chevron-down absolute right-24 bottom-3'></i>
@@ -97,7 +97,7 @@ function SutaznyPodklad() {
           <div className="flex flex-col mb-7 relative">
             <p className="mb-2">CPV kód (hlavný predmet)</p>
             <input
-              className="border-2 border-black rounded max-w-lg p-2"
+              className="border-2 border-black rounded max-w-lg p-2 placeholder-black"
               type="text" placeholder="00011111"
             />
             <i className='bx bx-chevron-down absolute right-24 bottom-3'></i>
@@ -105,7 +105,7 @@ function SutaznyPodklad() {
           <div className="flex flex-col mb-7 relative">
             <p className="mb-2">CPV kód z (doplňujúci predmet)</p>
             <input
-              className="border-2 border-black rounded max-w-lg p-2"
+              className="border-2 border-black rounded max-w-lg p-2 placeholder-black"
               type="text" placeholder="00002222"
             />
             <i className='bx bx-chevron-down absolute bottom-3 right-24'></i>
@@ -117,14 +117,14 @@ function SutaznyPodklad() {
         <div className="flex flex-col">
           <p className="mb-2">Predpokladaná hodnota zákazky</p>
           <input
-            className="border-2 border-black rounded max-w-lg p-2"
+            className="border-2 border-black rounded max-w-lg p-2 placeholder-black"
             type="text" placeholder="300"
           />
         </div>
         <div className="flex flex-col">
           <p className="mb-2">Lehota viazanosti ponuky</p>
           <input
-            className="border-2 border-black rounded max-w-lg p-2"
+            className="border-2 border-black rounded max-w-lg p-2 placeholder-black"
             type="text" placeholder="30"
           />
         </div>
@@ -136,14 +136,14 @@ function SutaznyPodklad() {
           <div className="flex flex-col mb-7">
             <p className="mb-2">Obchodné meno</p>
             <input
-              className="border-2 border-black rounded max-w-lg p-2"
+              className="border-2 border-black rounded max-w-lg p-2 placeholder-black"
               type="text" placeholder="Peťo"
             />
           </div>
           <div className="flex flex-col mb-7">
             <p className="mb-2">Sídlo</p>
             <input
-              className="border-2 border-black rounded max-w-lg p-2"
+              className="border-2 border-black rounded max-w-lg p-2 placeholder-black"
               type="text" placeholder="Bratislava"
             />
           </div>
@@ -152,21 +152,21 @@ function SutaznyPodklad() {
               Osoba splnomocnená na podpisovanie ponuky (nepovinný)
             </p>
             <input
-              className="border-2 border-black rounded max-w-lg p-2"
+              className="border-2 border-black rounded max-w-lg p-2 placeholder-black"
               type="text"placeholder="Peťo Remiš"
             />
           </div>
           <div className="flex flex-col mb-7">
             <p className="mb-2">Bankové spojenie</p>
             <input
-              className="border-2 border-black rounded max-w-lg p-2"
+              className="border-2 border-black rounded max-w-lg p-2 placeholder-black"
               type="text"placeholder="3092054923095023950235092"
             />
           </div>
           <div className="flex flex-col mb-7">
             <p className="mb-2">Telefónne číslo</p>
             <input
-              className="border-2 border-black rounded max-w-lg p-2"
+              className="border-2 border-black rounded max-w-lg p-2 placeholder-black"
               type="text" placeholder="+421 930 045 921 059 30"
             />
           </div>
@@ -176,28 +176,28 @@ function SutaznyPodklad() {
           <div className="flex flex-col mb-7">
             <p className="mb-2">Právna forma</p>
             <input
-              className="border-2 border-black rounded max-w-lg p-2"
+              className="border-2 border-black rounded max-w-lg p-2 placeholder-black"
               type="text" placeholder="Oťep Šimer"
             />
           </div>
           <div className="flex flex-col mb-7">
             <p className="mb-2">Štatutárny orgán</p>
             <input
-              className="border-2 border-black rounded max-w-lg p-2"
+              className="border-2 border-black rounded max-w-lg p-2 placeholder-black"
               type="text"placeholder="Bratislava"
             />
           </div>
           <div className="flex flex-col mb-7">
             <p className="mb-2">IČO</p>
             <input
-              className="border-2 border-black rounded max-w-lg p-2"
+              className="border-2 border-black rounded max-w-lg p-2 placeholder-black"
               type="text" placeholder="139 490 237 598 234"
             />
           </div>
           <div className="flex flex-col mb-7">
             <p className="mb-2">Email</p>
             <input
-              className="border-2 border-black rounded max-w-lg p-2"
+              className="border-2 border-black rounded max-w-lg p-2 placeholder-black"
               type="text" placeholder="peto.remis@gmail.com"
             />
           </div>
