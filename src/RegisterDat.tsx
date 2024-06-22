@@ -22,7 +22,7 @@ function RegisterDat() {
         .fill(0)
         .map((_, index) => (
           <Link
-          to="/sutazny-podklad"
+            to="/sutazny-podklad"
             className="grid items-center grid-cols-7 mt-4 border-2 border-black rounded-lg p-4 gap-4 font-medium"
             key={index}
           >
@@ -39,6 +39,46 @@ function RegisterDat() {
             </span>
           </Link>
         ))}
+
+      <div className="absolute bg-red-600 flex flex-col p-10">
+        <div className="flex flex-row justify-between">
+          <h1>Filtre</h1>
+          <i className="bx bx-x"></i>
+        </div>
+        <div>
+          <p className="mb-2">CPV</p>
+          <input
+            className="border-2 border-black rounded max-w-lg py-1"
+            type="text"
+          />
+        </div>
+        <div>
+          <p className="mb-2">Lokalita</p>
+          <input
+            className="border-2 border-black rounded max-w-lg py-1"
+            type="text"
+          />
+        </div>
+        <div>
+          <p className="mb-2">Dátum vyhotovenia</p>
+          <div className="flex justify-between gap-5">
+            <input
+              className="border-2 border-black rounded max-w-lg py-1"
+              type="text"
+            />
+            <input
+              className="border-2 border-black rounded max-w-lg py-1"
+              type="text"
+            />
+            <input
+              className="border-2 border-black rounded max-w-lg py-1"
+              type="text"
+            />
+          </div>
+        </div>
+        <div><input type="text" /> <p>Auditované</p></div>
+        <div><input type="text" /> <p>Platné podľa legislatívy</p></div>
+      </div>
     </Layout>
   );
 }

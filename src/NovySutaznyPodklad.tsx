@@ -1,7 +1,26 @@
 import { Link } from "react-router-dom";
 import Layout from "./Layout";
-
+import axios from "axios";
+import { useState } from "react";
 function RegisterDat() {
+  const API_URL = "http://127.0.0.1:5000/";
+
+  const askAssistant = (productName: string) => {
+    return axios.post('${API_URL}/ask_assistant', {
+      product_name: productName,
+    });
+  };
+
+  const [nazov, setNazov] = useState("");
+  const [cpv, setCpv] = useState("");
+  const handleAskAssistant = async () => {
+    try {
+      const response = await askAssistant(nazov);
+      setCpv(response.data.cpv_code);
+    } catch (error) {
+      console.error("Error asking assistant:", error);
+    }
+  };
   return (
     <Layout>
       <div className="flex flex-row justify-between items-center mb-12">
@@ -72,6 +91,13 @@ function RegisterDat() {
             <input
               className="border-2 border-black rounded max-w-lg py-1"
               type="text"
+              value={nazov}
+              onChange={(event) => setNazov(event.target.value)}
+              onBlur={() => {
+                if (nazov != "") {
+                  handleAskAssistant();
+                }
+              }}
             />
           </div>
           <div className="flex flex-col mb-7">
@@ -97,6 +123,7 @@ function RegisterDat() {
             <input
               className="border-2 border-black rounded max-w-lg py-1"
               type="text"
+              value={cpv}
             />
           </div>
           <div className="flex flex-col mb-7">

@@ -32,12 +32,22 @@ function SearchInput() {
           placeholder="Search Mockups, Logos..."
           required
         />
-        <button
-          type="submit"
-          className="text-white absolute end-2.5 bottom-2.5 bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2"
+        <a
+          className="absolute end-2.5 bottom-2.5 font-medium rounded-lg text-sm px-4 py-2 cursor-pointer"
         >
-          Search
-        </button>
+          <svg
+            width="17"
+            height="16"
+            viewBox="0 0 17 16"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M0.959651 1.61C2.97965 4.2 6.70965 9 6.70965 9V15C6.70965 15.55 7.15965 16 7.70965 16H9.70965C10.2597 16 10.7097 15.55 10.7097 15V9C10.7097 9 14.4297 4.2 16.4497 1.61C16.9597 0.95 16.4897 0 15.6597 0H1.74965C0.919651 0 0.449651 0.95 0.959651 1.61Z"
+              fill="black"
+            />
+          </svg>
+        </a>
       </div>
     </form>
   );
