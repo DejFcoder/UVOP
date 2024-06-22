@@ -16,14 +16,14 @@ function SutaznyPodklad() {
               <p className="mb-2">Internetova adresa (URL)</p>
               <input
                 className="border-2 border-black rounded max-w-lg py-1"
-                type="text"
+                type="text" placeholder="peto.remis@gmail.com"
               />
             </div>
             <div className="flex flex-col mb-7">
               <p className="mb-2">Manažér VO</p>
               <input
                 className="border-2 border-black rounded max-w-lg py-1"
-                type="text"
+                type="text" placeholder="Adrian M"
               />
             </div>
             <div className="flex flex-col mb-7">
