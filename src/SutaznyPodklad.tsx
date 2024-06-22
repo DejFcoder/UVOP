@@ -4,14 +4,11 @@ function SutaznyPodklad() {
   return (
     <Layout>
       <div className="flex flex-row justify-between items-center mb-12">
-        <h1 className="text-4xl font-bold">Nový súťažný podklad</h1>
-        <button className="border-2 border-red-600 py-2  px-3 text-red-600 font-medium rounded-lg ">
-          Zmazať
-        </button>
+        <h1 className="text-4xl font-bold">Zákazka #123456</h1>
       </div>
 
       <div className="flex flex-col mb-12">
-        <h2 className="text-2xl font-bold mb-3">Základy údaje</h2>
+        <h2 className="text-2xl font-bold mb-3">Základné údaje</h2>
         <div className="grid grid-cols-2">
           <div className="flex flex-col">
             <div className="flex flex-col mb-7">
@@ -200,14 +197,14 @@ function SutaznyPodklad() {
       </div>
 
       <div className="w-full flex justify-center items-center mt-10">
-        <button className="text-lg bg-blue-600 text-white py-4 px-10 rounded-xl">
-          Stiahnuť zmluvy
+        <button className="text-xl bg-blue-600 text-white py-4 px-10 rounded-xl">
+          Stiahnuť súťažné podklady
         </button>
-        <i className='bx bx-chevron-down'></i>
+        <i className="bx bx-chevron-down"></i>
         <button className="text-lg bg-blue-600 text-white py-4 px-10 rounded-xl">
           Stiahnuť súťažné podklady
         </button>
-        <i className='bx bx-chevron-down'></i>
+        <i className="bx bx-chevron-down"></i>
       </div>
     </Layout>
   );
