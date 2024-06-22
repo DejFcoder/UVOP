@@ -6,7 +6,7 @@ function RegisterDat() {
   const API_URL = "http://127.0.0.1:5000/";
 
   const askAssistant = (productName: string) => {
-    return axios.post('${API_URL}/ask_assistant', {
+    return axios.post(`${API_URL}/ask_assistant`, {
       product_name: productName,
     });
   };
