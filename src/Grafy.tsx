@@ -6,7 +6,7 @@ function DashBoard() {
   return (
     <Layout>
       <h1 className="text-4xl font-bold mb-7">DashBoard</h1>
-      <div className="grid grid-cols-4 gap-4">
+      <div className="xl:grid xl:grid-cols-4 lg:grid lg:grid-cols-2 flex flex-col gap-4">
         <div className="p-5 border-2 rounded-lg">
           <div className="flex flex-row justify-between items-center mb-2">
             <h2 className="text-xl font-medium ">Hodnota Tenderu</h2>

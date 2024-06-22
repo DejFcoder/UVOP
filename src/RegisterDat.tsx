@@ -21,7 +21,7 @@ function RegisterDat() {
         <SearchInput />
       </div>
 
-      <div className="grid items-center grid-cols-7 mb-8 w-full p-2 rounded-lg bg-blue-800 text-white">
+      <div className="lg:grid items-center lg:grid-cols-7 flex flex-col mb-8 w-full p-2 rounded-lg bg-blue-800 text-white">
         <span className="text-lg font-regular text-center">ID</span>
         <span className="text-lg font-regular text-center">Názov</span>
         <span className="text-lg font-regular text-center">CPV</span>
@@ -33,7 +33,7 @@ function RegisterDat() {
 
       <Link
         to="/sutazny-podklad"
-        className="grid items-center grid-cols-7 mt-4 border-2 border-black rounded-lg p-4 gap-4 font-medium hover:bg-blue-200 transition-all duration-200 ease-linear"
+        className="lg:grid items-center lg:grid-cols-7 flex flex-col mt-4 border-2 border-black rounded-lg p-4 gap-4 font-medium hover:bg-blue-200 transition-all duration-200 ease-linear"
       >
         <span className="text-center">123456</span>
         <span className="text-center">
@@ -49,7 +49,7 @@ function RegisterDat() {
       </Link>
       <Link
         to="/sutazny-podklad"
-        className="grid items-center grid-cols-7 mt-4 border-2 border-black rounded-lg p-4 gap-4 font-medium hover:bg-blue-200 transition-all duration-200 ease-linear"
+        className="lg:grid items-center lg:grid-cols-7 flex flex-col mt-4 border-2 border-black rounded-lg p-4 gap-4 font-medium hover:bg-blue-200 transition-all duration-200 ease-linear"
       >
         <span className="text-center">123456</span>
         <span className="text-center">
@@ -65,7 +65,7 @@ function RegisterDat() {
       </Link>
       <Link
         to="/sutazny-podklad"
-        className="grid items-center grid-cols-7 mt-4 border-2 border-black rounded-lg p-4 gap-4 font-medium hover:bg-blue-200 transition-all duration-200 ease-linear"
+        className="lg:grid items-center lg:grid-cols-7 flex flex-col mt-4 border-2 border-black rounded-lg p-4 gap-4 font-medium hover:bg-blue-200 transition-all duration-200 ease-linear"
       >
         <span className="text-center">123456</span>
         <span className="text-center">
@@ -81,7 +81,7 @@ function RegisterDat() {
       </Link>
       <Link
         to="/sutazny-podklad"
-        className="grid items-center grid-cols-7 mt-4 border-2 border-black rounded-lg p-4 gap-4 font-medium hover:bg-blue-200 transition-all duration-200 ease-linear"
+        className="lg:grid items-center lg:grid-cols-7 flex flex-col mt-4 border-2 border-black rounded-lg p-4 gap-4 font-medium hover:bg-blue-200 transition-all duration-200 ease-linear"
       >
         <span className="text-center">123456</span>
         <span className="text-center">
@@ -97,7 +97,7 @@ function RegisterDat() {
       </Link>
       <Link
         to="/sutazny-podklad"
-        className="grid items-center grid-cols-7 mt-4 border-2 border-black rounded-lg p-4 gap-4 font-medium hover:bg-blue-200 transition-all duration-200 ease-linear"
+        className="lg:grid items-center lg:grid-cols-7 flex flex-col mt-4 border-2 border-black rounded-lg p-4 gap-4 font-medium hover:bg-blue-200 transition-all duration-200 ease-linear"
       >
         <span className="text-center">123456</span>
         <span className="text-center">
@@ -113,7 +113,7 @@ function RegisterDat() {
       </Link>
       <Link
         to="/sutazny-podklad"
-        className="grid items-center grid-cols-7 mt-4 border-2 border-black rounded-lg p-4 gap-4 font-medium hover:bg-blue-200 transition-all duration-200 ease-linear"
+        className="lg:grid items-center lg:grid-cols-7 flex flex-col mt-4 border-2 border-black rounded-lg p-4 gap-4 font-medium hover:bg-blue-200 transition-all duration-200 ease-linear"
       >
         <span className="text-center">123456</span>
         <span className="text-center">
@@ -129,7 +129,7 @@ function RegisterDat() {
       </Link>
       <Link
         to="/sutazny-podklad"
-        className="grid items-center grid-cols-7 mt-4 border-2 border-black rounded-lg p-4 gap-4 font-medium hover:bg-blue-200 transition-all duration-200 ease-linear"
+        className="lg:grid items-center lg:grid-cols-7 flex flex-col mt-4 border-2 border-black rounded-lg p-4 gap-4 font-medium hover:bg-blue-200 transition-all duration-200 ease-linear"
       >
         <span className="text-center">123456</span>
         <span className="text-center">
