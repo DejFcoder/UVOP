@@ -23,8 +23,10 @@ function Sidebar() {
                 to="/"
                 className="flex items-center p-2 text-gray-900 rounded-lg hover:bg-gray-100 group"
               >
-                <i className="bx bx-plus-circle text-2xl"></i>
-                <span className="ms-3 ">Vytvoriť zákazku</span>
+                <span className="bg-blue-800 flex items-center px-2 py-1 rounded-lg text-white">
+                  <i className="bx bx-plus-circle text-2xl"></i>
+                  <span className="ms-3 ">Vytvoriť zákazku</span>
+                </span>
               </Link>
             </li>
             <li>
