@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 function Login() {
   return (
     <div className="w-screen h-screen flex items-center justify-center">
@@ -27,11 +29,16 @@ function Login() {
             </div>
 
             <div className="w-full flex flex-col items-center mt-5">
-              <button className="bg-blue-600 rounded-md text-white p-2 mt-5 font-medium">
+              <Link
+                to="/"
+                className="bg-blue-600 rounded-md text-white p-2 mt-5 font-medium"
+              >
                 Prihlásiť sa
-              </button>
+              </Link>
               <p className="my-1">alebo</p>
-              <button className="font-medium rounded-md p-2 bg-gray-500 text-white">Prihlásiť sa cez slovensko.sk</button>
+              <button className="font-medium rounded-md p-2 bg-gray-500 text-white">
+                Prihlásiť sa cez slovensko.sk
+              </button>
             </div>
           </div>
         </form>
