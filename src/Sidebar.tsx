@@ -11,17 +11,17 @@ function Sidebar() {
     >
       <div className="h-full px-3 py-4 overflow-y-auto bg-gray-50 flex flex-col">
         <a
-          href="https://flowbite.com/"
+          href="#"
           className="flex items-center ps-2.5 mb-5"
         >
           <img src={Logo} className="w-40" alt="Flowbite Logo" />
         </a>
         <div className="flex-1">
           <ul className="space-y-2 font-medium">
-            <li>
+            <li className="mb-4">
               <Link
                 to="/"
-                className="flex items-center p-2 text-gray-900 rounded-lg hover:bg-gray-100 group"
+                className="flex items-center p-2 text-gray-900 rounded-lg group"
               >
                 <span className="bg-blue-800 flex items-center px-2 py-1 rounded-lg text-white">
                   <i className="bx bx-plus-circle text-2xl"></i>
@@ -29,6 +29,7 @@ function Sidebar() {
                 </span>
               </Link>
             </li>
+            <div className="border-2"></div>
             <li>
               <Link
                 to="/register"
