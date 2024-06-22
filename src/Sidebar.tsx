@@ -21,7 +21,7 @@ function Sidebar() {
               to="/"
               className="flex items-center p-2 text-gray-900 rounded-lg hover:bg-gray-100 group"
             >
-              <i className="bx bx-cog text-2xl"></i>
+              <i className='bx bx-plus-circle text-2xl'></i>
               <span className="ms-3">Vytvoriť zákazku</span>
             </Link>
           </li>
@@ -84,6 +84,7 @@ function Sidebar() {
               href="#"
               className="flex items-center p-2 text-gray-900 rounded-lg hover:bg-gray-100 group"
             >
+              <i className="bx bx-cog text-2xl"></i>
               <span className="flex-1 ms-3 whitespace-nowrap">Nastavenia</span>
             </a>
           </li>
@@ -92,6 +93,7 @@ function Sidebar() {
               to="/login"
               className="flex items-center p-2 text-gray-900 rounded-lg hover:bg-gray-100 group"
             >
+              
               <span className="flex-1 ms-3 whitespace-nowrap">
                 Prihlásiť sa
               </span>
