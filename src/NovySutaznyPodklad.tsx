@@ -32,7 +32,7 @@ function RegisterDat() {
 
       <div className="flex flex-col mb-12">
         <h2 className="text-2xl font-bold mb-3">Základy údaje</h2>
-        <div className="grid grid-cols-2">
+        <div className="lg:grid lg:grid-cols-2 flex flex-col gap-10">
           <div className="flex flex-col">
             <div className="flex flex-col mb-7">
               <p className="mb-2">Internetova adresa (URL)</p>
@@ -84,7 +84,7 @@ function RegisterDat() {
       </div>
 
       <h2 className="text-2xl font-bold mb-3">Informácie o zákazke</h2>
-      <div className="grid grid-cols-2 mb-5">
+      <div className="lg:grid lg:grid-cols-2 flex flex-col mb-5 gap-10">
         <div className="flex flex-col">
           <div className="flex flex-col mb-7">
             <p className="mb-2">Názov zákazky</p>
@@ -136,10 +136,10 @@ function RegisterDat() {
         </div>
       </div>
 
-      <div className="w-full h-24 bg-blue-100 flex flex-row items-center px-5 text-blue-500 mb-8">
+      <div className="w-full py-8 bg-blue-100 flex flex-row items-center px-5 text-blue-500 mb-8 gap-4">
         <i className="bx bxs-info-circle text-4xl"></i>
         <div className="w-9/12 h-full my-0 mx-auto flex flex-col justify-center">
-          <p className="text-blue-700">
+          <p className="text-blue-800">
             Tento text slúži iba ako{" "}
             <span className="font-semibold">ukážka naplneného obsahu</span> v
             danom komponente. Nepoužívať pri implementácii a dizajne.
@@ -154,7 +154,7 @@ function RegisterDat() {
         <i className="bx bx-x text-5xl"></i>
       </div>
 
-      <div className="grid grid-cols-2 mb-20">
+      <div className="lg:grid lg:grid-cols-2 gap-10 flex flex-col mb-20">
         <div className="flex flex-col">
           <p className="mb-2">Predpokladaná hodnota zákazky</p>
           <input
@@ -172,7 +172,7 @@ function RegisterDat() {
       </div>
 
       <h2 className="text-2xl font-bold my-3">Identifikácia obstarávateľa</h2>
-      <div className="grid grid-cols-2">
+      <div className="lg:grid lg:grid-cols-2 gap-10 flex flex-col">
         <div className="flex flex-col">
           <div className="flex flex-col mb-7">
             <p className="mb-2">Obchodné meno</p>
